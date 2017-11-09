@@ -1,5 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import firebase from './myFirebase';
+import MyVideo from './MyVideo';
+import MyControl from './MyControl';
 
-const App = () => <h1>Good la</h1>;
+
+const App = () => (
+    <div>
+      <MyVideo/>
+
+    </div>
+);
 
 export default App;
